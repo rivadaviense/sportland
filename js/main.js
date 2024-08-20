@@ -3,7 +3,7 @@ const PRODUCTOS = [
     {
         id: 'jordan 1',
         titulo: 'Air Jordan 1',
-        imagen: '../img/jordan/nike 2.jpg',
+        imagen: './img/jordan/nike 2.jpg',
         categorias: {
             nombre: 'zapatillas Jordan',
             id: 'jordan',
