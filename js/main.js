@@ -13,7 +13,7 @@ const PRODUCTOS = [
     {
         id: 'jordan 2',
         titulo: 'Air Jordan 2',
-        imagen: '../img/jordan/nike3.jpg',
+        imagen: './img/jordan/nike3.jpg',
         categorias: {
             nombre: 'zapatillas Jordan',
             id: 'jordan',
@@ -23,7 +23,7 @@ const PRODUCTOS = [
     {
         id: 'jordan 3',
         titulo: 'Air Jordan 3',
-        imagen: '../img/jordan/nike 5.webp',
+        imagen: './img/jordan/nike 5.webp',
         categorias: {
             nombre: 'zapatillas Jordan',
             id: 'jordan',
@@ -35,7 +35,7 @@ const PRODUCTOS = [
     {
         id: 'dunk 1',
         titulo: 'Nike Dunk 1',
-        imagen: '../img/dunk/dunk1.jpg',
+        imagen: './img/dunk/dunk1.jpg',
         categorias: {
             nombre: 'zapatillas Dunk',
             id: 'dunk',
@@ -45,7 +45,7 @@ const PRODUCTOS = [
     {
         id: 'dunk 2',
         titulo: 'Nike Dunk 2',
-        imagen: '../img/dunk/dunk2.webp',
+        imagen: './img/dunk/dunk2.webp',
         categorias: {
             nombre: 'zapatillas Dunk',
             id: 'dunk',
@@ -55,7 +55,7 @@ const PRODUCTOS = [
     {
         id: 'dunk 3',
         titulo: 'Nike Dunk 3',
-        imagen: '../img/dunk/dunk3.jpeg',
+        imagen: './img/dunk/dunk3.jpeg',
         categorias: {
             nombre: 'zapatillas Dunk',
             id: 'dunk',
