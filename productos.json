@@ -65,7 +65,7 @@
         "titulo": "Remera Nike 1",
         "imagen": "./img/remera/remera 1.jpeg",
         "categorias": {
-          "nombre": "remera nike 1",
+          "nombre": "Remeras Nike",
           "id": "remeras"
         },
         "precio": 15000
@@ -76,7 +76,7 @@
         "titulo": "Remera Nike 2",
         "imagen": "./img/remera/remera 2.jpeg",
         "categorias": {
-          "nombre": "remera nike 2",
+          "nombre": "Remeras Nike",
           "id": "remeras"
         },
         "precio": 15000
@@ -87,7 +87,7 @@
         "titulo": "Remera Nike 3",
         "imagen": "./img/remera/remera 3.jpg",
         "categorias": {
-          "nombre": "remera nike 3",
+          "nombre": "Remeras Nike",
           "id": "remeras"
         },
         "precio": 15000
@@ -98,7 +98,7 @@
         "titulo": "Pantalon Nike 1",
         "imagen": "./img/pantalon/pantalon 1.jpeg",
         "categorias": {
-          "nombre": "pantalon nike 1",
+          "nombre": "Pantalones Nike",
           "id": "pantalones"
         },
         "precio": 10000
@@ -109,7 +109,7 @@
         "titulo": "Pantalon Nike 2",
         "imagen": "./img/pantalon/pantalon 2.jpeg",
         "categorias": {
-          "nombre": "pantalon nike 2",
+          "nombre": "Pantalones Nike",
           "id": "pantalones"
         },
         "precio": 10000
@@ -117,10 +117,10 @@
 
       {
         "id": "pantalon3 ",
-        "titulo": "Pantalon Nike 3",
+        "titulo": "Pantalones Nike 3",
         "imagen": "./img/pantalon/pantalon 3.jpg",
         "categorias": {
-          "nombre": "pantalon nike 3",
+          "nombre": "Pantalones Nike",
           "id": "pantalones"
         },
         "precio": 10000
