@@ -95,9 +95,10 @@ function actualizarTotal() {
 }
 
 
-botonSeguirComprando.addEventListener('click', () => {
-  window.location.href = 'index.html'; 
+document.getElementById('botonSeguirComprando').addEventListener('click', function() {
+  window.location.href = './index.html';
 });
+
 
 
 
@@ -108,6 +109,9 @@ botonComprar.addEventListener('click', () => {
     text: 'Muchas Gracias!',
     icon: 'success'
   });
+
+
+
 
  
 });

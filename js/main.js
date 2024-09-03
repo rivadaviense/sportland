@@ -1,74 +1,25 @@
-const PRODUCTOS = [
-    // Jordan
-    {
-        id: 'jordan 1',
-        titulo: 'Air Jordan 1',
-        imagen: './img/jordan/nike 2.jpg',
-        categorias: {
-            nombre: 'zapatillas Jordan',
-            id: 'jordan',
-        },
-        precio: 20000 
-    },
-    {
-        id: 'jordan 2',
-        titulo: 'Air Jordan 2',
-        imagen: './img/jordan/nike3.jpg',
-        categorias: {
-            nombre: 'zapatillas Jordan',
-            id: 'jordan',
-        },
-        precio: 20000 
-    },
-    {
-        id: 'jordan 3',
-        titulo: 'Air Jordan 3',
-        imagen: './img/jordan/nike 5.webp',
-        categorias: {
-            nombre: 'zapatillas Jordan',
-            id: 'jordan',
-        },
-        precio: 20000 
-    },
-
-    // Dunk
-    {
-        id: 'dunk 1',
-        titulo: 'Nike Dunk 1',
-        imagen: './img/dunk/dunk1.jpg',
-        categorias: {
-            nombre: 'zapatillas Dunk',
-            id: 'dunk',
-        },
-        precio: 20000 
-    },
-    {
-        id: 'dunk 2',
-        titulo: 'Nike Dunk 2',
-        imagen: './img/dunk/dunk2.webp',
-        categorias: {
-            nombre: 'zapatillas Dunk',
-            id: 'dunk',
-        },
-        precio: 20000 
-    },
-    {
-        id: 'dunk 3',
-        titulo: 'Nike Dunk 3',
-        imagen: './img/dunk/dunk3.jpeg',
-        categorias: {
-            nombre: 'zapatillas Dunk',
-            id: 'dunk',
-        },
-        precio: 20000 
-    },
-];
 
 const contenedorProductos = document.querySelector("#contenedor-productos");
 const botonCategoria = document.querySelectorAll(".boton-categoria");
 const tituloPrincipal = document.querySelector("#titulo-principal");
 let botonesAgregar = document.querySelectorAll(".producto-agregar");
 const numerito = document.querySelector("#numerito");
+
+let PRODUCTOS = []; 
+
+fetch('./productos.json') 
+    .then(response => response.json())
+    .then(data => {
+        PRODUCTOS = data.productos; 
+        cargarProductos(PRODUCTOS); 
+        actualizarNumerito(); 
+    })
+    .catch(error => console.error('Error al cargar los productos:', error));
+
+
+
+
+
 
 function cargarProductos(productosElegidos) {
     contenedorProductos.innerHTML = ""; 
@@ -140,3 +91,19 @@ function actualizarNumerito() {
 
 actualizarNumerito();
 
+
+  async function Alertamail() {
+    const { value: email } = await Swal.fire({
+      title: "Tenemos muchas ofertas, dejanos tu correo",
+      input: "email",
+      inputLabel: "",
+      inputPlaceholder: "jps@sportland"
+    });
+  
+    if (email) {
+      Swal.fire(`Entered email: ${email}`);
+    }
+  }
+  
+  // Espera 8 segundos antes de ejecutar la función
+  setTimeout(Alertamail, 5000);

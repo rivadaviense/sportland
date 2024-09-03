@@ -1,0 +1,131 @@
+{
+    "productos": [
+      {
+        "id": "jordan 1",
+        "titulo": "Air Jordan 1",
+        "imagen": "./img/jordan/nike 2.jpg",
+        "categorias": {
+          "nombre": "zapatillas Jordan",
+          "id": "jordan"
+        },
+        "precio": 20000
+      },
+      {
+        "id": "jordan 2",
+        "titulo": "Air Jordan 2",
+        "imagen": "./img/jordan/nike3.jpg",
+        "categorias": {
+          "nombre": "zapatillas Jordan",
+          "id": "jordan"
+        },
+        "precio": 20000
+      },
+      {
+        "id": "jordan 3",
+        "titulo": "Air Jordan 3",
+        "imagen": "./img/jordan/nike 5.webp",
+        "categorias": {
+          "nombre": "zapatillas Jordan",
+          "id": "jordan"
+        },
+        "precio": 20000
+      },
+      {
+        "id": "dunk 1",
+        "titulo": "Nike Dunk 1",
+        "imagen": "./img/dunk/dunk1.jpg",
+        "categorias": {
+          "nombre": "zapatillas Dunk",
+          "id": "dunk"
+        },
+        "precio": 20000
+      },
+      {
+        "id": "dunk 2",
+        "titulo": "Nike Dunk 2",
+        "imagen": "./img/dunk/dunk2.webp",
+        "categorias": {
+          "nombre": "zapatillas Dunk",
+          "id": "dunk"
+        },
+        "precio": 20000
+      },
+      {
+        "id": "dunk 3",
+        "titulo": "Nike Dunk 3",
+        "imagen": "./img/dunk/dunk3.jpeg",
+        "categorias": {
+          "nombre": "zapatillas Dunk",
+          "id": "dunk"
+        },
+        "precio": 20000
+      },
+      {
+        "id": "remera1 ",
+        "titulo": "Remera Nike 1",
+        "imagen": "./img/remera/remera 1.jpeg",
+        "categorias": {
+          "nombre": "remera nike 1",
+          "id": "remeras"
+        },
+        "precio": 15000
+      },
+
+      {
+        "id": "remera2 ",
+        "titulo": "Remera Nike 2",
+        "imagen": "./img/remera/remera 2.jpeg",
+        "categorias": {
+          "nombre": "remera nike 2",
+          "id": "remeras"
+        },
+        "precio": 15000
+      },
+
+      {
+        "id": "remera3 ",
+        "titulo": "Remera Nike 3",
+        "imagen": "./img/remera/remera 3.jpg",
+        "categorias": {
+          "nombre": "remera nike 3",
+          "id": "remeras"
+        },
+        "precio": 15000
+      },
+      
+      {
+        "id": "pantalon1 ",
+        "titulo": "Pantalon Nike 1",
+        "imagen": "./img/pantalon/pantalon 1.jpeg",
+        "categorias": {
+          "nombre": "pantalon nike 1",
+          "id": "pantalones"
+        },
+        "precio": 10000
+      },
+
+      {
+        "id": "pantalon2 ",
+        "titulo": "Pantalon Nike 2",
+        "imagen": "./img/pantalon/pantalon 2.jpeg",
+        "categorias": {
+          "nombre": "pantalon nike 2",
+          "id": "pantalones"
+        },
+        "precio": 10000
+      },
+
+      {
+        "id": "pantalon3 ",
+        "titulo": "Pantalon Nike 3",
+        "imagen": "./img/pantalon/pantalon 3.jpg",
+        "categorias": {
+          "nombre": "pantalon nike 3",
+          "id": "pantalones"
+        },
+        "precio": 10000
+      }
+
+    ]
+  }
+  
